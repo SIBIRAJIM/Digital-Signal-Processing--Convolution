@@ -61,7 +61,8 @@ title( 'linear convolution');
 
 ## RESULT:
 
-The Linear Convolution of given signal is y[n]={4.8,10.08,-12.84,3.6,45.34,5.16,<u>28.4</u>}
+The Linear Convolution of given signal is 
+y[n]={4.8,10.08,-12.84,3.6,45.34,5.16,28.4,-21.41,30.33,22.6,21}
 
 
 
