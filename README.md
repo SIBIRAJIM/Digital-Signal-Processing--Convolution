@@ -1,8 +1,11 @@
 # Digital-Signal-Processing--Convolution
+
 ## Aim:
-                  To perform linear convolution using MAT LAB.
+To perform linear convolution using MAT LAB.
+
 ## Software Required:
 MAT LAB R2012
+
 ## Algorithm:
 Step 1: Open mat lab. Write the program.
 
@@ -20,9 +23,43 @@ Step 7: Terminate the program.
 
 ## PROGRAM: 
 
+```
+clc; % clear screen
+clear all; % clear screen
+close all; % close all figure windows
+% INPUT SEQUENCE
+a=input('enter the starting x(n)');
+x=input('enter the x(n) sequence');
+n=a:1:length(x)+a-1;
+figure(1);
+stem(n,x);
+xlabel('time');
+ylabel('amplitude');
+title('input sequence');
+% IMPULSE SEQUENCE
+b=input('enter the starting h(n)');
+y=input('enter the h(n) sequence');
+m=b:1:length(y)+b-1;
+figure(2);
+stem(m,y);
+xlabel('time');
+ylabel('amplitude');
+title('impulse response')
+% LINEAR CONVOLUTION
+z=conv2(x,y);
+n1=a+b:1:length(z)+a+b-1;
+figure(3);
+stem(n1,z);
+xlabel('time');
+ylabel('amplitude');
+title( 'linear convolution');
+```
 
 ## OUTPUT:
 
+<img width="1920" height="1080" alt="Screenshot 2025-09-26 153507" src="https://github.com/user-attachments/assets/ef8cee44-130a-436f-8aed-42a291f34d72" />
 
 ## RESULT:
+
+
 
