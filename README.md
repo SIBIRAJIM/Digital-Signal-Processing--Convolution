@@ -54,15 +54,18 @@ xlabel('time');
 ylabel('amplitude');
 title( 'linear convolution');
 ```
+## CALCULATION:
+<img width="724" height="267" alt="image" src="https://github.com/user-attachments/assets/b3c6af57-5fe3-44b9-b4a7-dbfe33f7a2ec" />
+<img width="676" height="108" alt="image" src="https://github.com/user-attachments/assets/72636955-01a5-41a5-a657-c4c7532b2f4e" />
+
 
 ## OUTPUT:
 
 <img width="1920" height="1080" alt="Screenshot 2025-09-26 153507" src="https://github.com/user-attachments/assets/ef8cee44-130a-436f-8aed-42a291f34d72" />
 
 ## RESULT:
+<img width="724" height="267" alt="image" src="https://github.com/user-attachments/assets/c4b5cf36-42a6-425a-93f4-0ddd6106ba86" />
 
-The Linear Convolution of given signal is 
-y[n]={4.8,10.08,-12.84,3.6,45.34,5.16,28.4,-21.41,30.33,22.6,21}
 
 
 
