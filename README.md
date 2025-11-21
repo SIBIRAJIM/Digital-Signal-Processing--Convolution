@@ -55,7 +55,8 @@ ylabel('amplitude');
 title( 'linear convolution');
 ```
 ## CALCULATION:
-<img width="724" height="267" alt="image" src="https://github.com/user-attachments/assets/b3c6af57-5fe3-44b9-b4a7-dbfe33f7a2ec" />
+<img width="676" height="520" alt="image" src="https://github.com/user-attachments/assets/fb94c81a-0335-4e72-8420-e6e50264baec" />
+
 <img width="676" height="108" alt="image" src="https://github.com/user-attachments/assets/72636955-01a5-41a5-a657-c4c7532b2f4e" />
 
 
